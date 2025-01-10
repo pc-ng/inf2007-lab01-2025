@@ -49,7 +49,7 @@ fun MainScreen() {
                 verticalArrangement = Arrangement.spacedBy(16.dp)
             ) {
                 UserInput(
-                    name = name,
+                    name = username,
                     onNameChange = { name = it }
                 )
 
